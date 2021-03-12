@@ -1,0 +1,71 @@
+body {
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+}
+.bulb-box {
+	width: 300px;
+	height: 300px;
+	padding-top: 30px;
+	background-color: #000;
+}
+#bulbOff {
+	width: 180px;
+	height: 200px;
+	margin: 0 auto;
+	background-color: #e9eced;
+	border-radius: 50%;
+}
+#bulbOnn {
+	width: 180px;
+	height: 200px;
+	margin: 0 auto;
+	background-color: #ffff00;
+	border-radius: 50%;
+}
+.bulb-base {
+	width: 70px;
+	height: 60px;
+	margin: -8px auto 0;
+	background-color: #98aba7;
+	border: 2px solid #000;
+	border-radius: 0 0 10px 10px;
+}
+.bulb-base-line {
+	width: 70px;
+	height: 5px;
+	margin-bottom: 5px;
+	background-color: #5b6b67;
+}
+.first {
+	margin-top: 15px;
+}
+.switch-board {
+	height: 85px;
+	margin-left: 10px;
+}
+.switch {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+button {
+	display: block;
+	width: 90px;
+	height: 40px;
+	font-size: 1.2rem;
+	border-radius: 8px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+button:active {
+	border: 1px solid #333;
+}
+#switchOn {
+	background-color: #2a995c;
+	margin-bottom: 5px;
+}
+#switchOff {
+	background-color: #ff4c4c;
+}
